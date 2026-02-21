@@ -35,6 +35,11 @@ File States:
 1. Untracked - U 
 2. Staged - A 
 3. Modified - M 
-4. 
 
 6. git commit -m "message"
+--Best practice is to structure the message in simple present tense
+--HEAD = Latest commit in the branch
+--Whenever we create a branch, it is created from the HEAD of the current branch
+
+7. git log
+logs = Metadata
