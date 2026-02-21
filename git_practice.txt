@@ -1,0 +1,25 @@
+Git and Github for DE:
+
+--Git is a Version control system
+--Think of it like a time machine for your code
+--We can work in teams without messing up each other's work 
+
+--Git is the tool you use on yout local computer
+--Github is where you store and share your git projects on the cloud
+--you can collaborate with others, review code, track issues etc
+
+--Repo is just a project folder tracked by Git
+--can be stored locally or remotely on Github
+
+Note: Best to use power shell for learning git
+
+1. git status
+2. git config --global user.email "pradyumnaburly22@gmail.com"
+   git config --global user.name "pradyumnaburly"
+3. git init
+
+Note: Don't touch .git folder
+4. git branch - lists all branches
+
+Note: In order to register a branch, it should have atleast 1 commit
+when we initially run git branch, it will not even show master branch
