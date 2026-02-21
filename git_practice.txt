@@ -23,3 +23,11 @@ Note: Don't touch .git folder
 
 Note: In order to register a branch, it should have atleast 1 commit
 when we initially run git branch, it will not even show master branch
+
+5. git add . = adds all untracked files to staging layer
+--working directory = where u do a development
+--all files in working directory is hidden to git, unless we tell it to track
+--in staging area it takes snapshot of the files
+--flow: working directory -> staging area -> repo
+
+6. git commit -m "message"
