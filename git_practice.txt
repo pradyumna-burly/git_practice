@@ -28,6 +28,13 @@ when we initially run git branch, it will not even show master branch
 --working directory = where u do a development
 --all files in working directory is hidden to git, unless we tell it to track
 --in staging area it takes snapshot of the files
---flow: working directory -> staging area -> repo
+--flow: working directory -> staging area -> repo 
+
+
+File States:
+1. Untracked - U 
+2. Staged - A 
+3. Modified - M 
+4. 
 
 6. git commit -m "message"
