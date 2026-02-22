@@ -79,4 +79,13 @@ and git rebase master (need to learn more)
 12. git reset --hard <commit>
 git reset --hard HEAD~1
 
-cbkjz
+13.Cherry pick
+--only certain commit is merged instead of a full branch
+
+git Cherry-pick <commit>
+git cherry-pick <commit1> <commit2> .....
+Note: Make sure to use the commit id in the proper order
+
+14. Stashing
+--Temporary storage location which git provides to use
+--The latest stack will be on Stashing
