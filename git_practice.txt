@@ -45,3 +45,14 @@ File States:
 logs = Metadata
 git log --oneline = in simple lines
 
+Note: Git don not create empty folders
+Note: to include empty folder, we should add a file in that folder called .gitkeep
+
+### Git branches
+
+--Each branch is isolated
+--Ancester commit and merge commit
+8. git switch master = to go to master branch
+git switch -c fetaure_1 = creates and goes to that branch
+git branch = lists all the branches
+
