@@ -43,3 +43,5 @@ File States:
 
 7. git log
 logs = Metadata
+git log --oneline = in simple lines
+
