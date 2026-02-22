@@ -68,3 +68,6 @@ git branch = lists all the branches
 --The concept is take my commits and replay them on top of the latest base branch
 --Basically shifting its base or shifting the ancestor
 --When we merge after rebase , then it will be Fast forward merge
+
+--Now to rebase, we have to go to branch to be rebased
+and git rebase master
