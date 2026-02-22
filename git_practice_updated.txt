@@ -61,3 +61,10 @@ git branch = lists all the branches
 ### Merge Conflicts
 --When two developer works on same file, and dev1 made a commit, now when dev2 wants to work on same file and commit his changes, there will be a merge conflict
 --git merge --abort
+--After resolving the conflicts, we need to add and commit the changes
+
+
+10. Rebase
+--The concept is take my commits and replay them on top of the latest base branch
+--Basically shifting its base or shifting the ancestor
+--When we merge after rebase , then it will be Fast forward merge
