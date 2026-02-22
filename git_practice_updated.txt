@@ -70,4 +70,8 @@ git branch = lists all the branches
 --When we merge after rebase , then it will be Fast forward merge
 
 --Now to rebase, we have to go to branch to be rebased
-and git rebase master
+and git rebase master (need to learn more)
+
+11. git reflog
+--It is advanced version of git log --oneline
+--Helps to go back to the commit

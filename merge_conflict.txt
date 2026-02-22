@@ -1,3 +1,0 @@
-Hi
-This line is added by dev2
-I am ingesting batch data
