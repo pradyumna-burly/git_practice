@@ -89,3 +89,6 @@ Note: Make sure to use the commit id in the proper order
 14. Stashing
 --Temporary storage location which git provides to use
 --The latest stack will be on Stashing
+
+git stash push -m "my dev Paused"
+git stash apply
