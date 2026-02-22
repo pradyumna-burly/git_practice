@@ -57,3 +57,7 @@ git switch -c fetaure_1 = creates and goes to that branch
 git branch = lists all the branches
 
 9. git merge branch name -m " "
+
+### Merge Conflicts
+--When two developer works on same file, and dev1 made a commit, now when dev2 wants to work on same file and commit his changes, there will be a merge conflict
+--git merge --abort
