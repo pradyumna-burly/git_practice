@@ -56,4 +56,4 @@ Note: to include empty folder, we should add a file in that folder called .gitke
 git switch -c fetaure_1 = creates and goes to that branch
 git branch = lists all the branches
 
-9. git merge branch name
+9. git merge branch name -m " "
