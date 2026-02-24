@@ -92,3 +92,4 @@ Note: Make sure to use the commit id in the proper order
 
 git stash push -m "my dev Paused"
 git stash apply
+git stash apply "stash@{0}"

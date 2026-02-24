@@ -1,0 +1,46 @@
+--For each branch, developers write the test cases after development, build in local, testing
+--Then we'll merge it in main branch
+
+CI: Developers continuosly merge their code frequently into a shared repo
+Each Merge triggers an automated build and testing process
+To ensure the changes do not break the existing functionality
+
+
+CD: 
+
+1. Repo = Project folder exists
+2. Dev Env = Server, EC2 instance etc (Dockers) -> testing
+3. QA Env = QA team do the testing
+4. UAT (Pre Prod) = further testing
+5. Prod Env
+
+
+1. Workflows
+--Series of steps developers follows to write, test, collaborate and deploy code effectively
+
+a. Coding (Ex: VS Code)
+b. Version Control (Git) = manages code base
+c. Code Review - Peer code review, Architect code review, best practices, code style etc
+d. Testing - Automated Testing
+
+Unit testing
+Integrated Testing
+End to end testing
+
+e. CI
+Automated CI Pipeline:
+--Once the PR is opened, CI Pipeline is automatically triggered
+--This pipeline builds the application and runs all test cases
+--If pipeline passes, PR is approved and code is merged with the main branch
+
+d. CD - deploy in diff env (Dev, QA, UAT, Prod)
+--Upon Merging the PR, CD pipeline is triggered
+--The application is automatically deployed to Dev/Staging Env
+--Upon all the testing
+--Deployed to Prod env
+
+
+
+
+
+
